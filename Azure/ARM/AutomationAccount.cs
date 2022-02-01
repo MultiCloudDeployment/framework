@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using System.ComponentModel;
-using System.ComponentModel.DataAnnotations;
 using framework.Azure.ARM;
 
 namespace framework.Azure.ARM
@@ -54,15 +52,10 @@ namespace framework.Azure.ARM
             this.Location = Location;
             this.SkuName = SkuName;
         }
-        [Required]
         public string Name { get; set; }
-        [Required]
         public string Location { get; set; }
-        [Required]
         public string SkuName { get; set; }
-        [DefaultValue(false)]
         public bool DisableLocalAuth { get; set; }
-        [DefaultValue(true)]
         public bool PublicNetworkAccess { get; set; }
     }
     public class Variables
