@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
-using framework.Azure.ARM;
+using framework.Azure.Arm;
 
-namespace framework.Azure.ARM
+namespace framework.Azure.Arm
 {
     public class AutomationAccount : Template
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace framework.Azure.ARM
+namespace framework.Azure.Arm
 {
     public class Template
     {
